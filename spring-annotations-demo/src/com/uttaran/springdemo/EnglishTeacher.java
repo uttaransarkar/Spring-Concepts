@@ -5,10 +5,12 @@ import org.springframework.beans.factory.annotation.Value;
 public class EnglishTeacher implements Teacher {
 	
 	private RemarksService remarksService;
-
+	
+	//gets value from properties file and stores it in the following variable
 	@Value("${foo.email}")
 	private String email;
-	
+
+	//gets value from properties file and stores it in the following variable
 	@Value("${foo.school}")
 	private String school;
 

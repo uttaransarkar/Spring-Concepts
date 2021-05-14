@@ -9,7 +9,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 //@ComponentScan("com.uttaran.springdemo")	//not needed when we manually define @Beans
-@PropertySource("classpath:teacherinfo.properties")
+@PropertySource("classpath:teacherinfo.properties")		//refers to the properties file to get info
 
 public class ConfigClassDemo {
 	
