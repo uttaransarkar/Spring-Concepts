@@ -11,10 +11,7 @@ public class JavaConfigTeacherDemo {
 		AnnotationConfigApplicationContext context 
 			= new AnnotationConfigApplicationContext(ConfigClassDemo.class);
 
-		//read bean from the spring container when @Component name is specified
-//		Teacher teacher = context.getBean("thisTeacher", Teacher.class);
-		
-		//when @Component() is blank i.e default bean-id used
+		//read bean from the spring container 
 		EnglishTeacher teacher = context.getBean("englishTeacher", EnglishTeacher.class);
 		
 		//call a method on the bean

@@ -15,7 +15,7 @@ public class JavaConfigDemo {
 //		Teacher teacher = context.getBean("thisTeacher", Teacher.class);
 		
 		//when @Component() is blank i.e default bean-id used
-		Teacher teacher = context.getBean("scienceTeacher", Teacher.class);
+		Teacher teacher = context.getBean("englishTeacher", Teacher.class);
 		
 		//call a method on the bean
 		System.out.println(teacher.getDailyCourse());
