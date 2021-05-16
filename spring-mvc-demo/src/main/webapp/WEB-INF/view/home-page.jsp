@@ -12,6 +12,14 @@
 <hr>
 
 <!-- link to the form by referring the appropriate request mapping -->
-<a href="viewForm">Proceed to register</a>
+<a href="hello/viewForm">Proceed to register</a>
+<br><br>
+
+<a href="student/viewForm">Proceed for student registration</a>
+<br><br>
+
+<a href="customer/viewForm">Proceed for customer registration</a>
+
+
 </body>
 </html>

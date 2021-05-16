@@ -12,6 +12,7 @@
 
 <!-- get student name from parameter passed via URL -->
 Name of student: ${param.studentName}
-
+<br>
+Message: ${studentName}
 </body>
 </html>
