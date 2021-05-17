@@ -15,9 +15,11 @@ public class ControllerCustomer {
 	@RequestMapping("viewForm")
 	public String viewForm(Model model) {
 		
+		//adding student object to the model
 		Customer cust = new Customer();
 		model.addAttribute("customer", cust);
 		
+		//calling the form page
 		return "form-customer";		
 	}
 	
@@ -26,8 +28,12 @@ public class ControllerCustomer {
 			BindingResult bindingResult) {
 		
 		System.out.println("First Name: =" + cust.getFirstName() + "=");
+		
+		//checking for any errors in the form
 		if(bindingResult.hasErrors())
 			return "form-customer";		
+		
+		//if none then proceed to display details page
 		else
 			return "display-customer-form";
 	}

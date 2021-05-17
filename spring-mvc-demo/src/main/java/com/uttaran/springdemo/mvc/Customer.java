@@ -5,6 +5,7 @@ import javax.validation.constraints.Size;
 
 public class Customer {
 	
+	//validation rules for firstName
 	@NotNull(message = "required field")
 	@Size(min = 1, message = "required field")
 	private String firstName;

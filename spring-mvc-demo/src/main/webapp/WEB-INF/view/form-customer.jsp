@@ -17,12 +17,14 @@
 <i>Please Note: (*) marked fields are mandatory  </i>
 <br><br>
 
+<!-- modelAttribute will have its fields populated by the form data -->
 <form:form action="processForm" modelAttribute="customer">
 
 	First Name(*): <form:input path="firstName"/>
 	
 	<!-- for displaying error messages -->
 	<form:errors path="firstName" cssClass="error"></form:errors>
+	
 	<br><br>
 	
 	Last Name: <form:input path="lastName"/>

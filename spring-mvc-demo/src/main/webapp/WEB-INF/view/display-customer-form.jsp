@@ -11,6 +11,8 @@
 </head>
 <body>
 
+<h3>Customer Details</h3>
+
 Customer has been successfully registered: <b>${customer.firstName} ${customer.lastName}</b>
 
 </body>
