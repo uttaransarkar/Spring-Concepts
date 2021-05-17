@@ -14,6 +14,15 @@
 <h3>Customer Details</h3>
 
 Customer has been successfully registered: <b>${customer.firstName} ${customer.lastName}</b>
+<br><br>
+
+You have <b>${customer.noOfPasses}</b> free passes.
+<br><br>
+
+Delivery at: <b>${customer.postalCode}</b>
+<br><br>
+
+Course Code: <b>${customer.courseCode}</b>
 
 </body>
 </html>
