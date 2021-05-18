@@ -27,6 +27,7 @@ public class CourseCodeConstraintValidator
 			res = code.startsWith(coursePrefix);
 		else
 			return true;
+		
 		return res;
 	}
 
