@@ -117,6 +117,7 @@ public class Instructor {
 		
 		courses.add(thisCourse);
 		
+		//setting the instructor for all the courses as 'this' Instructor object
 		thisCourse.setInstructor(this);
 	}
 

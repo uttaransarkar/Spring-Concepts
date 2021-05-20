@@ -28,7 +28,7 @@ public class DeleteCourseDemo {
 			session.beginTransaction();
 			
 			//getting course from DB
-			Course thisCourse = session.get(Course.class, 11);
+			Course thisCourse = session.get(Course.class, 10);
 			
 			//deleting this course
 			System.out.println("The course being deleted: " + thisCourse);
